@@ -1,17 +1,13 @@
 # Example travis-ci.org Clojure project
 
-This is an example Clojure project that uses [Leiningen](https://github.com/technomancy/leiningen), clojure.test and
+This is an example Clojure project that uses [Leiningen](https://github.com/technomancy/leiningen) 2 [preview], clojure.test and
 travis-ci.org for continuous integration.
 
 ## Usage
 
-Make sure you have Leiningen installed. Then install dependencies with
+Make sure you have [Leiningen 2.0 installed](https://github.com/technomancy/leiningen/wiki/Upgrading). Then run tests with
 
-    lein deps
-
-and run tests with
-
-    lein test
+    lein2 test
 
 This is what Travis CI Clojure builder will run by default.
 
@@ -22,7 +18,7 @@ For more information, see `.travis.yml`, read our [Getting Started guide](http:/
 
 Here is a sample status icon showing the state of the master branch:
 
-[![Build Status](https://secure.travis-ci.org/travis-ci/travis-ci-clojure-example.png?branch=master)](http://travis-ci.org/travis-ci/travis-ci-clojure-example)
+[![Build Status](https://secure.travis-ci.org/travis-ci/travis-ci-clojure-leiningen-2-example.png?branch=master)](http://travis-ci.org/travis-ci/travis-ci-clojure-leiningen-2-example)
 
 
 ## Support
