@@ -3,6 +3,7 @@
 This is an example Clojure project that uses [Leiningen](https://github.com/technomancy/leiningen) 2 [preview], clojure.test and
 travis-ci.org for continuous integration.
 
+
 ## Usage
 
 Make sure you have [Leiningen 2.0 installed](https://github.com/technomancy/leiningen/wiki/Upgrading). Then run tests with
